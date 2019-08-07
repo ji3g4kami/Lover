@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		40CFC1EB22FA82ED00B465A3 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CFC1DD22FA82EC00B465A3 /* Extensions.swift */; };
-		40CFC1F422FA82ED00B465A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CFC1EA22FA82ED00B465A3 /* ViewController.swift */; };
+		40ACFCF222FA8FF6000582BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40ACFCF122FA8FF6000582BF /* ViewController.swift */; };
+		40ACFCF422FA9099000582BF /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40ACFCF322FA9099000582BF /* Extensions.swift */; };
 		40CFC1FE22FA836100B465A3 /* FileKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 40CFC1FC22FA836100B465A3 /* FileKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		40CFC20122FA836100B465A3 /* FileKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CFC1FA22FA836100B465A3 /* FileKit.framework */; };
 		40CFC20222FA836100B465A3 /* FileKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 40CFC1FA22FA836100B465A3 /* FileKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -83,8 +83,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		40CFC1DD22FA82EC00B465A3 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = ../../mySiri/mySiri/Extensions.swift; sourceTree = "<group>"; };
-		40CFC1EA22FA82ED00B465A3 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../mySiri/mySiri/ViewController.swift; sourceTree = "<group>"; };
+		40ACFCF122FA8FF6000582BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		40ACFCF322FA9099000582BF /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		40CFC1FA22FA836100B465A3 /* FileKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FileKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		40CFC1FC22FA836100B465A3 /* FileKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FileKit.h; sourceTree = "<group>"; };
 		40CFC1FD22FA836100B465A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -186,8 +186,8 @@
 			children = (
 				D0A8E72B20EE377600DCBBA0 /* Lover.entitlements */,
 				D009500220E8D7AF00983CDD /* AppDelegate.swift */,
-				40CFC1DD22FA82EC00B465A3 /* Extensions.swift */,
-				40CFC1EA22FA82ED00B465A3 /* ViewController.swift */,
+				40ACFCF322FA9099000582BF /* Extensions.swift */,
+				40ACFCF122FA8FF6000582BF /* ViewController.swift */,
 				40CFC21522FA84E200B465A3 /* Main.storyboard */,
 				D009500920E8D7B000983CDD /* Assets.xcassets */,
 				D009500B20E8D7B000983CDD /* LaunchScreen.storyboard */,
@@ -431,10 +431,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40CFC1F422FA82ED00B465A3 /* ViewController.swift in Sources */,
+				40ACFCF422FA9099000582BF /* Extensions.swift in Sources */,
 				D0A8E72D20EE3CB100DCBBA0 /* Intents.intentdefinition in Sources */,
 				D009500320E8D7AF00983CDD /* AppDelegate.swift in Sources */,
-				40CFC1EB22FA82ED00B465A3 /* Extensions.swift in Sources */,
+				40ACFCF222FA8FF6000582BF /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
