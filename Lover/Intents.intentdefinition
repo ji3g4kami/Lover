@@ -5,13 +5,15 @@
 	<key>INEnums</key>
 	<array/>
 	<key>INIntentDefinitionModelVersion</key>
-	<string>1.0</string>
+	<string>1.1</string>
+	<key>INIntentDefinitionNamespace</key>
+	<string>i8vKVk</string>
 	<key>INIntentDefinitionSystemVersion</key>
-	<string>18F132</string>
+	<string>19B88</string>
 	<key>INIntentDefinitionToolsBuildVersion</key>
-	<string>10G8</string>
+	<string>11B52</string>
 	<key>INIntentDefinitionToolsVersion</key>
-	<string>10.3</string>
+	<string>11.2</string>
 	<key>INIntents</key>
 	<array>
 		<dict>
@@ -19,8 +21,6 @@
 			<string>information</string>
 			<key>INIntentDescriptionID</key>
 			<string>8HLlCg</string>
-			<key>INIntentLastParameterTag</key>
-			<integer>0</integer>
 			<key>INIntentName</key>
 			<string>Lover</string>
 			<key>INIntentParameterCombinations</key>
@@ -29,10 +29,6 @@
 				<dict>
 					<key>INIntentParameterCombinationIsPrimary</key>
 					<true/>
-					<key>INIntentParameterCombinationSubtitle</key>
-					<string></string>
-					<key>INIntentParameterCombinationSubtitleID</key>
-					<string>FyrD08</string>
 					<key>INIntentParameterCombinationSupportsBackgroundExecution</key>
 					<true/>
 					<key>INIntentParameterCombinationTitle</key>
@@ -41,25 +37,13 @@
 					<string>bdUOzD</string>
 				</dict>
 			</dict>
-			<key>INIntentParameters</key>
-			<array/>
 			<key>INIntentResponse</key>
 			<dict>
 				<key>INIntentResponseCodes</key>
 				<array>
 					<dict>
 						<key>INIntentResponseCodeFormatString</key>
-						<string>Something went wrong</string>
-						<key>INIntentResponseCodeFormatStringID</key>
-						<string>1HsHAg</string>
-						<key>INIntentResponseCodeName</key>
-						<string>failure</string>
-						<key>INIntentResponseCodeSuccess</key>
-						<false/>
-					</dict>
-					<dict>
-						<key>INIntentResponseCodeFormatString</key>
-						<string>Undoubtedly, it would be 蕙而!</string>
+						<string>Undoubtedly, it would be Oliphia!</string>
 						<key>INIntentResponseCodeFormatStringID</key>
 						<string>06wwql</string>
 						<key>INIntentResponseCodeName</key>
@@ -67,25 +51,29 @@
 						<key>INIntentResponseCodeSuccess</key>
 						<true/>
 					</dict>
+					<dict>
+						<key>INIntentResponseCodeFormatString</key>
+						<string>Something went wrong</string>
+						<key>INIntentResponseCodeFormatStringID</key>
+						<string>1HsHAg</string>
+						<key>INIntentResponseCodeName</key>
+						<string>failure</string>
+					</dict>
 				</array>
 				<key>INIntentResponseLastParameterTag</key>
 				<integer>1</integer>
-				<key>INIntentResponseParameters</key>
-				<array/>
 			</dict>
-			<key>INIntentRestrictions</key>
-			<integer>0</integer>
 			<key>INIntentTitle</key>
 			<string>The most beautiful woman on earth</string>
 			<key>INIntentTitleID</key>
 			<string>0URvJh</string>
 			<key>INIntentType</key>
 			<string>Custom</string>
-			<key>INIntentUserConfirmationRequired</key>
-			<false/>
 			<key>INIntentVerb</key>
 			<string>View</string>
 		</dict>
 	</array>
+	<key>INTypes</key>
+	<array/>
 </dict>
 </plist>

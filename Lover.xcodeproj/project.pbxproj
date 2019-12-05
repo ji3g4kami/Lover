@@ -97,7 +97,7 @@
 		40CFC21522FA84E200B465A3 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		40CFC21722FA853200B465A3 /* LoverIntentUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LoverIntentUI.entitlements; sourceTree = "<group>"; };
 		40CFC21822FA853A00B465A3 /* LoverIntent.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LoverIntent.entitlements; sourceTree = "<group>"; };
-		D0094FFF20E8D7AF00983CDD /* Lover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lover.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0094FFF20E8D7AF00983CDD /* 宛廷寶貝.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "宛廷寶貝.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D009500220E8D7AF00983CDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D009500920E8D7B000983CDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D009500C20E8D7B000983CDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -173,7 +173,7 @@
 		D009500020E8D7AF00983CDD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D0094FFF20E8D7AF00983CDD /* Lover.app */,
+				D0094FFF20E8D7AF00983CDD /* 宛廷寶貝.app */,
 				D0A8E70A20ED120F00DCBBA0 /* LoverIntent.appex */,
 				D0A8E71320ED120F00DCBBA0 /* LoverIntentUI.appex */,
 				40CFC1FA22FA836100B465A3 /* FileKit.framework */,
@@ -278,7 +278,7 @@
 			);
 			name = Lover;
 			productName = SpacePhoto;
-			productReference = D0094FFF20E8D7AF00983CDD /* Lover.app */;
+			productReference = D0094FFF20E8D7AF00983CDD /* 宛廷寶貝.app */;
 			productType = "com.apple.product-type.application";
 		};
 		D0A8E70920ED120F00DCBBA0 /* LoverIntent */ = {
@@ -681,7 +681,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.dengli.Lover;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "宛廷寶貝";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -703,7 +703,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.dengli.Lover;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "宛廷寶貝";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
